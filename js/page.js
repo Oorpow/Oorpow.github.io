@@ -1,5 +1,5 @@
 var showPage = (function () {
-  var pageIndex = 1; // 当前显示的页面索引
+  var pageIndex = 0; // 当前显示的页面索引
   var pages = $$(".page_container .page"); // 拿到所有的页面元素
   var nextIndex = null; // 下一个页面的索引
   /**
